@@ -23,3 +23,39 @@
   - Si B es mayor, comparar con C
     - Si B es mayor B, B es la respuesta
     - Si C es mayor, C es la respuesta
+## Determinar si i es primo
+### Input
+- A:formacion de n numeros
+- N: N numeros
+- x: Determinar si es primo o no
+### Output
+- Elegir A[i]= x
+- si x es x=2 o x=5 pasar es primo
+- si x x/2= entero ox/3= es entero o x/5 = entero 
+  - No es primo
+ - si es falso
+   - Es primo
+## Determinar si son palindromas
+### Input
+- A: palabras
+- n: par de letras totales de la palabra [0-n]
+- x: si es palindromo
+### Output
+- Contar  numero de letras
+  - si n es par
+    -no es palindromo
+- si es impar
+  -formar pares de n empezando desde los extreemos hacia el centro
+   - par[n]+AB
+   -si par[i] = al reves par[n-i] es malindromo
+## Determinar si X se encuentra en una oracion
+### Input
+- A: Letras
+- n: Letras en la oracion
+- x: si un par de letras especificas se encuentran en una frase
+### Output
+- asignar letra dependiendo de su posicion en el abecedario
+  - EJ: ant= 1,14, 21
+- ver sinuestra secuencia de palabra x se encuentra en la oracion
+- si es verdadero + es una subsecuencia
+-
