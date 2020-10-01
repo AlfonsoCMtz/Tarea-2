@@ -45,9 +45,11 @@
   - si n es par
     -no es palindromo
 - si es impar
-  -formar pares de n empezando desde los extreemos hacia el centro
-   - par[n]+AB
-   -si par[i] = al reves par[n-i] es malindromo
+  - asignar letra dependiendo de su posicion en el abecedario
+    - EJ: ant= 1,14, 21
+  -formar pares de n empezando desde los extremos hacia el centro, nombrando de 0 a n-1
+   - 
+   -si par[x] = al reves par[n-x] es palindromo
 ## Determinar si X se encuentra en una oracion
 ### Input
 - A: Letras
@@ -56,6 +58,6 @@
 ### Output
 - asignar letra dependiendo de su posicion en el abecedario
   - EJ: ant= 1,14, 21
-- ver sinuestra secuencia de palabra x se encuentra en la oracion
+- ver si nuestra secuencia de palabra x se encuentra en la oracion
 - si es verdadero + es una subsecuencia
 -
