@@ -38,13 +38,10 @@
 ## Determinar si son palíndromas
 ### Input
 - A: palabras
-- n: par de letras totales de la palabra [0-n]
+- n: par de letras totales de la palabra [0,n-1]
 - x: si es palíndromo
 ### Output
 - Contar número de letras
-  - si n es par
-    -no es palíndromo
-- si es impar
   - asignar letra dependiendo de su posición en el abecedario
     - EJ: ant= 1,14, 21
   -formar pares de n empezando desde los extremos hacia el centro, nombrando de 0 a n-1
